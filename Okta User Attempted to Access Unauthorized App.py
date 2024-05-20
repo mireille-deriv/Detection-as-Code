@@ -41,7 +41,7 @@ body = SecurityMonitoringStandardRuleCreatePayload(
     cases=[
         SecurityMonitoringRuleCaseCreate(
             # Only needed if you have multiple cases
-            name="",
+            name="low",
             # Determine the severity of the alert
             status=SecurityMonitoringRuleSeverity.LOW,
             # List what conditions need to be met for the alert to trigger
